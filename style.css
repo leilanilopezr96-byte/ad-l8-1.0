@@ -1,71 +1,90 @@
 html {
-    height: 100%;
-    width: 100%;
-  }
-  
-.logo{
-  background: #ffffff;
-  background: linear-gradient(11deg,rgba(255, 255, 255, 0) 11%, rgba(32, 102, 135, 1) 65%, rgba(6, 31, 47, 1) 100%);
-
-  background: #061F2F;
-  background: radial-gradient(at right top, #061F2F,rgba(32, 102, 135, 1), rgba(255, 255, 255, 0) 90%);
+  height: 100%;
+  width: 100%;
 }
 
-.ads{
+.logo {
+  background: #ffffff;
+  background: linear-gradient(
+    11deg,
+    rgba(255, 255, 255, 0) 11%,
+    rgba(32, 102, 135, 1) 65%,
+    rgba(6, 31, 47, 1) 100%
+  );
+
+  background: #061f2f;
+  background: radial-gradient(
+    at right top,
+    #061f2f,
+    rgba(32, 102, 135, 1),
+    rgba(255, 255, 255, 0) 90%
+  );
+}
+
+.ads {
   background-color: blue;
 }
 
-.news{
+.news {
   background-color: yellow;
 }
 
-.contenido1{
+.contenido1 {
   background-color: gray;
 }
 
-.contenido2{
-  background-color: red;
+/* .contenido2 {
+  background-color: hsl(200, 40%, 70%);
+} */
+
+.cont2 {
+  text-align: center;
+  line-height: 1.5;
 }
 
-.logo-img{
+.descripcion2 {
+  text-align: justify;
+}
+
+.logo-img {
   max-height: 10rem;
 }
-.logo-div-img{
+.logo-div-img {
   padding: 1.5rem;
 }
 
-.logo-div-text-text{
+.logo-div-text-text {
   margin: auto;
 }
 
-.logo-div-text{
+.logo-div-text {
   display: flex;
   justify-content: center; /* centrado horizontal */
-  align-items: center;     /* centrado vertical */
+  align-items: center; /* centrado vertical */
 }
-body{
-  background: linear-gradient(135deg,#191970,#5F9EA0);
+body {
+  background: linear-gradient(135deg, #191970, #5f9ea0);
   padding-top: 50px;
 }
 
-.card{
+.card {
   border-radius: 10px;
 }
 
-.card-body{
+.card-body {
   padding: 2rem;
 }
 
-.card-title{
+.card-title {
   margin-bottom: 1.5rem;
 }
 
-.btn-primary{
-  background-color: #00008B;
+.btn-primary {
+  background-color: #00008b;
   border-color: #191970;
 }
 
-.btn-primary:hover{
-  background: linear-gradient(135deg,#00008B,#2f787b);
+.btn-primary:hover {
+  background: linear-gradient(135deg, #00008b, #2f787b);
   border-color: black;
 }
