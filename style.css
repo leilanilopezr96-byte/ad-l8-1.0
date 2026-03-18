@@ -3,3 +3,22 @@ html {
     width: 100%;
   }
   
+.logo{
+  background-color: pink;
+}
+
+.ads{
+  background-color: blue;
+}
+
+.news{
+  background-color: yellow;
+}
+
+.contenido1{
+  background-color: gray;
+}
+
+.contenido2{
+  background-color: red;
+}
