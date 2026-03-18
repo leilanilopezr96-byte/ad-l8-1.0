@@ -1,3 +1,48 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+.logo{
+  background: #ffffff;
+  background: linear-gradient(11deg,rgba(255, 255, 255, 0) 11%, rgba(32, 102, 135, 1) 65%, rgba(6, 31, 47, 1) 100%);
+
+  background: #061F2F;
+  background: radial-gradient(at right top, #061F2F,rgba(32, 102, 135, 1), rgba(255, 255, 255, 0) 90%);
+}
+
+.ads{
+  background-color: blue;
+}
+
+.news{
+  background-color: yellow;
+}
+
+.contenido1{
+  background-color: gray;
+}
+
+.contenido2{
+  background-color: red;
+}
+
+.logo-img{
+  max-height: 10rem;
+}
+.logo-div-img{
+  padding: 1.5rem;
+}
+
+.logo-div-text-text{
+  margin: auto;
+}
+
+.logo-div-text{
+  display: flex;
+  justify-content: center; /* centrado horizontal */
+  align-items: center;     /* centrado vertical */
+}
 body{
   background: linear-gradient(135deg,#191970,#5F9EA0);
   padding-top: 50px;
