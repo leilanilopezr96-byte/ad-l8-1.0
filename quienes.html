@@ -4,109 +4,230 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiénes Somos - Tinta Nómada</title>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav class="navbar">
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="about.html">Quiénes somos</a></li>
-        <li><a href="contact.html">Contacto</a></li>
-      </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Tinta Nómada</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">Quiénes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <header class="hero-section">
-      <h1>Sobre Tinta Nómada</h1>
-      <p></p>
+    <!-- Hero -->
+    <header class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Sobre Tinta Nómada</h1>
+        <p class="lead">Creatividad que conecta emociones</p>
+      </div>
     </header>
 
-    <main class="container">
-      <section class="about-content">
-        <h2>¿Qué hace Tinta Nómada?</h2>
-        <p>
-          Somos un grupo de mentes creativas dedicadas a plasmar la cultura, el
-          arte y lo que tu imaginación inspire. Nuestro propósito es transformar
-          momentos especiales en recuerdos únicos, ofreciendo un servicio
-          confiable, cercano y transparente.
-        </p>
+    <!-- Layout principal -->
+    <main class="container my-5">
+      <div class="row">
+        <!-- Col izquierda vacía -->
+        <aside class="col-md-2"></aside>
 
-        <h2>Nuestra misión</h2>
-        <p>
-          Brindar a nuestros clientes una experiencia sencilla y eficiente para
-          solicitar y gestionar recuerdos personalizados. Nos comprometemos a
-          fortalecer la comunicación con nuestros clientes y a acompañarlos en
-          la creación de detalles que celebren sus momentos más importantes.
-        </p>
+        <!-- Contenido central -->
+        <section class="col-md-8">
+          <h2>¿Qué hace Tinta Nómada?</h2>
+          <p>
+            Somos un grupo de mentes creativas dedicadas a plasmar la cultura,
+            el arte y lo que tu imaginación inspire...
+          </p>
 
-        <h2>Nuestra visión</h2>
-        <p>
-          Convertirnos en la plataforma digital de referencia en la
-          personalización de recuerdos y regalos especiales, destacando por
-          nuestra innovación, creatividad y atención al cliente. Queremos ser
-          reconocidos como un negocio que conecta emociones con creatividad.
-        </p>
+          <!-- Imagen -->
+          <img
+            src="Pictures/TNfondo.png"
+            class="img-fluid w-50 rounded mb-4 mx-auto d-block"
+            alt="Logo Tinta Nómada"
+          />
 
-        <h2>Nuestros valores</h2>
-        <ul>
-          <li>
-            <strong>Honestidad:</strong> actuamos con transparencia en cada
-            proceso y comunicación.
-          </li>
-          <li>
-            <strong>Compromiso con el cliente:</strong> cada pedido representa
-            un momento especial que cuidamos con dedicación.
-          </li>
-          <li>
-            <strong>Responsabilidad:</strong> cumplimos con seriedad y
-            puntualidad en cada etapa del servicio.
-          </li>
-          <li>
-            <strong>Creatividad e innovación:</strong> buscamos nuevas ideas
-            para ofrecer experiencias únicas.
-          </li>
-          <li>
-            <strong>Respeto:</strong> promovemos relaciones basadas en empatía y
-            cordialidad.
-          </li>
-          <li>
-            <strong>Mejora continua:</strong> optimizamos nuestros procesos para
-            brindar mayor calidad en cada experiencia.
-          </li>
-        </ul>
-
-        <h2>¿Por qué existe este sitio web?</h2>
-        <p>
-          Este sitio nació para dar solución a la administración de pedidos
-          realizados en Tinta Nómada y establecer un canal de comunicación
-          directo con nuestros clientes. Queremos facilitar la manera en que las
-          personas solicitan y gestionan recuerdos personalizados, asegurando
-          que cada detalle sea atendido con creatividad, responsabilidad y
-          compromiso. Nuestra meta es acompañar a quienes buscan celebrar
-          momentos importantes con regalos únicos, conectando emociones con arte
-          y tecnología.
-        </p>
-
-        <h2>Nuestro Equipo de Desarrollo</h2>
-        <div class="team-grid">
-          <div class="member">
-            <h3>
-              [Erick, Giovanni, Maitte, Leilani, Pamela, Fernando, Jesus,
-              Oswaldo, Luis Angel, Jafeth]
-            </h3>
-            <p>Estrategas SCRUM</p>
+          <!-- Video -->
+          <div class="ratio ratio-16x9 mb-4">
+            <iframe
+              src="Pictures/TNVideo.mp4"
+              title="Video presentación"
+              allowfullscreen
+            ></iframe>
           </div>
-        </div>
-      </section>
+
+          <h2>Nuestra misión</h2>
+          <p>
+            Brindar a nuestros clientes una experiencia sencilla y eficiente...
+          </p>
+
+          <h2>Nuestros valores</h2>
+          <ul class="list-group mb-4">
+            <li class="list-group-item">
+              <strong>Honestidad:</strong> transparencia en cada proceso.
+            </li>
+            <li class="list-group-item">
+              <strong>Compromiso:</strong> cada pedido es especial.
+            </li>
+            <li class="list-group-item">
+              <strong>Creatividad:</strong> buscamos nuevas ideas.
+            </li>
+          </ul>
+
+          <h2>Nuestro Equipo de Desarrollo</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Leilani</h5>
+                  <p class="card-text">
+                    Estratega SCRUM y Desarrolladora Frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Maitte</h5>
+                  <p class="card-text">
+                    Estratega SCRUM y Desarrolladora Frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Pamela</h5>
+                  <p class="card-text">
+                    Estratega SCRUM y Desarrolladora Frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Erick</h5>
+                  <p class="card-text">
+                    Estratega SCRUM y Desarrollador Frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Luis Angel</h5>
+                  <p class="card-text">
+                    Estratega SCRUM y Desarrollador Frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Oswaldo</h5>
+                  <p class="card-text">
+                    Estratega SCRUM y Desarrollador Frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Giovanni</h5>
+                  <p class="card-text">
+                    Estratega SCRUM y Desarrollador Frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Fernando</h5>
+                  <p class="card-text">
+                    Estratega SCRUM y Desarrollador Frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Jesus</h5>
+                  <p class="card-text">
+                    Estratega SCRUM y Desarrollador Frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Alejandro</h5>
+                  <p class="card-text">
+                    Estratega SCRUM y Desarrollador Frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Col derecha vacía -->
+        <aside class="col-md-2"></aside>
+      </div>
     </main>
 
-    <footer class="main-footer">
-      <p><strong>Proyecto:</strong> Tinta Nómada - AD-07 [cite: 61]</p>
-      <p><strong>Autores:</strong> Turing's Bug Hunters[cite: 59]</p>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+      <p><strong>Proyecto:</strong> Tinta Nómada</p>
+      <p><strong>Autores:</strong> Turing's Bug Hunters</p>
       <p>
         <strong>Contacto:</strong>
-        <a href="mailito:hola@tintanomada.com">contacto@tintanomada.com</a>
-        (Correo falso*) [cite: 60]
+        <a href="mailto:contacto@tintanomada.com" class="text-white"
+          >contacto@tintanomada.com</a
+        >
       </p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
